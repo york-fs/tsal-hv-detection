@@ -3957,6 +3957,12 @@
 		(uuid "22750453-072a-4ad5-b091-86f96c27a416")
 	)
 	(junction
+		(at 162.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba6d7f3-f672-4771-90c6-00071681aa79")
+	)
+	(junction
 		(at 166.37 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4005,10 +4011,10 @@
 		(uuid "a0d43a66-2ceb-44ca-a198-3a79aba5fdac")
 	)
 	(junction
-		(at 158.75 90.17)
+		(at 160.02 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4b2b3f6-cd5e-4a02-98f9-30ffe39bc6f8")
+		(uuid "a6c88f35-cbda-44fe-9d9e-f1d124839f5d")
 	)
 	(junction
 		(at 86.36 87.63)
@@ -4019,10 +4025,6 @@
 	(no_connect
 		(at 44.45 38.1)
 		(uuid "19285119-adad-46c8-8666-82e72bad3246")
-	)
-	(no_connect
-		(at 156.21 85.09)
-		(uuid "2c4c3d73-cb15-426d-afab-9f4098ea9a7b")
 	)
 	(no_connect
 		(at 125.73 44.45)
@@ -4170,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 99.06) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29089849-5b8e-495e-bb71-6cfb0a65901b")
+	)
+	(wire
+		(pts
 			(xy 135.89 90.17) (xy 140.97 90.17)
 		)
 		(stroke
@@ -4210,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 66.04) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30384b13-1daa-42ef-8b64-97e148355349")
+	)
+	(wire
+		(pts
 			(xy 43.18 67.31) (xy 43.18 66.04)
 		)
 		(stroke
@@ -4217,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "3a720fb5-4ff4-4dc6-b8c0-c098f46b1b79")
+	)
+	(wire
+		(pts
+			(xy 162.56 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b64f89c-606a-4c24-a631-abb32934f8b1")
 	)
 	(wire
 		(pts
@@ -4280,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 90.17)
+			(xy 162.56 91.44) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4340,16 +4372,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 166.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "614a0eb4-51df-41a1-a387-099898595555")
-	)
-	(wire
-		(pts
 			(xy 166.37 44.45) (xy 171.45 44.45)
 		)
 		(stroke
@@ -4370,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 158.75 87.63)
+			(xy 158.75 74.93) (xy 158.75 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4380,7 +4402,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 156.21 90.17)
+			(xy 156.21 85.09) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2db92c-bb14-485b-a2da-69a1e3bea0c5")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b81387d-1406-429a-9884-555973a97a6f")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4397,6 +4439,26 @@
 			(type default)
 		)
 		(uuid "7201ace3-a82a-4400-b96b-e55bc721b932")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761bb9b5-2afa-4ae0-bcba-1693cb18b90c")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766055c7-af68-42e2-b81d-2d89da9c8e34")
 	)
 	(wire
 		(pts
@@ -4477,6 +4539,16 @@
 			(type default)
 		)
 		(uuid "9ed9fab3-9e69-4fdd-9335-e2c758b2eddb")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2635013-45b1-494e-986c-f0a6c6b14eda")
 	)
 	(wire
 		(pts
@@ -4657,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "e61822a8-1c42-4f1d-a3f8-e08689c5d4b8")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dcf6ce-f385-4da7-b86d-3c2163f0d720")
 	)
 	(wire
 		(pts
@@ -5211,6 +5293,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 158.75 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25cc1db6-03ec-4c66-83f3-96db492a47be")
+		(property "Reference" "R12"
+			(at 161.29 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 161.29 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.972 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c515fe-b640-46c7-97de-388cff3dc961")
+		)
+		(pin "2"
+			(uuid "e2e8b99e-2303-4447-a1f3-89b1ddce1346")
+		)
+		(instances
+			(project "TSAL_HV_PCB"
+				(path "/49aa962b-9fa6-407b-842a-3cf8300a05dc"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 64.77 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5413,7 +5565,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 158.75 76.2 0)
+		(at 158.75 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5422,7 +5574,7 @@
 		(fields_autoplaced yes)
 		(uuid "339f9e54-2fcb-4d24-949b-fd7a58516431")
 		(property "Reference" "#PWR015"
-			(at 158.75 80.01 0)
+			(at 158.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5583,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 158.75 71.12 0)
+			(at 158.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 76.2 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 76.2 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 76.2 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6098,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 95.25 0)
+		(at 162.56 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5955,7 +6107,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c631df7-19a1-4d58-98bb-66c7ece271b5")
 		(property "Reference" "R16"
-			(at 161.29 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6116,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.29 96.52 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.972 95.25 90)
+			(at 160.782 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +6134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +6143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 95.25 0)
+			(at 162.56 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,6 +7053,76 @@
 			(project "TSAL_HV_PCB"
 				(path "/49aa962b-9fa6-407b-842a-3cf8300a05dc"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79f87134-88ea-45e3-a0df-2727001f8a69")
+		(property "Reference" "R1"
+			(at 154.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.258 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c92d4827-dd6c-4061-b965-2417223af61e")
+		)
+		(pin "2"
+			(uuid "1270bc91-36d6-4c65-82c0-499abf72e041")
+		)
+		(instances
+			(project "TSAL_HV_PCB"
+				(path "/49aa962b-9fa6-407b-842a-3cf8300a05dc"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9607,7 +9829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 99.06 0)
+		(at 160.02 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9616,7 +9838,7 @@
 		(fields_autoplaced yes)
 		(uuid "f21693c8-50cb-4dfa-b0b0-d7022f151476")
 		(property "Reference" "#PWR016"
-			(at 158.75 105.41 0)
+			(at 160.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 104.14 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 99.06 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +9864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 99.06 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 99.06 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
